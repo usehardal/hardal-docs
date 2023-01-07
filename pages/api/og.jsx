@@ -4,7 +4,7 @@ export const config = {
   runtime: 'edge'
 }
 
-const font = fetch(new URL('./space-grotesk.ttf', import.meta.url)).then(res =>
+const font = fetch(new URL('./Inter-SemiBold.otf', import.meta.url)).then(res =>
   res.arrayBuffer()
 )
 
@@ -81,7 +81,7 @@ export default async function (req) {
       height: 630,
       fonts: [
         {
-          name: 'Space Grotesk',
+          name: 'inter',
           data: inter,
           style: 'normal'
         }
