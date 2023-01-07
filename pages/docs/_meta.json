@@ -1,0 +1,34 @@
+{
+  "index": "Introduction",
+  "quick-start": "Quick Start",
+  "getting-started": "Getting Started",
+  "data-collection": "Data Collection",
+  "-- Data Collection --": {
+    "type": "separator",
+    "title": "Data Collection"
+  },
+  "ux-metrics": "UX Metrics",
+  "web-vitals": "Web Vitals",
+  "web3-marketing-metrics": "Web3 Marketing Metrics",
+  "user-bheavior": "   User Behavior",
+  "-- Analysis and Visualization --": {
+    "type": "separator",
+    "title": "Analysis and Visualization"
+  },
+  "dashboard": "Dashboard",
+  "reports": "Reports",
+  "custom-visualizations": "Custom Visualizations",
+  "-- Integration and API --": {
+    "type": "separator",
+    "title": "Integration and API"
+  },
+  "ingtegrating-with-other-tools": "  Integrating with Other Tools",
+  "using-the-api": "  Using the API",
+
+  "metrics": "Metrics",
+  "-- Other --": {
+    "type": "separator",
+    "title": "Other"
+  },
+  "design": "Design Assets"
+}
