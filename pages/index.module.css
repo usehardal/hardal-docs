@@ -46,6 +46,10 @@
   color: #000000;
 }
 
+:global(.dark) a.ctaSecondary {
+  background: linear-gradient(to right, #000000, #010101);
+  color: #ffffff;
+}
 a.cta {
   display: inline-block;
   background: linear-gradient(to right, #040304, #000000);
@@ -60,6 +64,21 @@ a.cta {
   -webkit-user-drag: none;
   user-select: none;
   -webkit-tap-highlight-color: transparent;
+}
+a.ctaSecondary {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 9999px;
+  color: rgb(0, 0, 0);
+  padding: 0.75rem 1.5rem;
+  margin-top: 0.5rem;
+  text-shadow: 0 1px 1px #00387838;
+  box-shadow: 0 1px 2px #00295738;
+  transition: all 0.2s ease;
+  -webkit-user-drag: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  background: linear-gradient(to right, #ffffff, #ffffff);
 }
 a.cta span {
   display: inline-block;

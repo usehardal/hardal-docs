@@ -3,5 +3,7 @@
   "dead-click": "Dead Click",
   "error-click": "Error Click",
   "mouse-shakes": "Mouse Shakes",
-  "scroll": "Scroll"
+  "scroll": "Scroll",
+  "time-on-page": "Time on Page",
+  "bounce-rate": "Bounce Rate"
 }
