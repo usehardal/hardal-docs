@@ -1,3 +1,45 @@
-# Custom Events
+# Creating Custom Events
 
-The extra configurations are passed to the **theme** as additional information. Check the corresponding pages for more information:
+This instruction guide provides a step-by-step tutorial on creating custom events using the `hardal.trackEvent()` function.
+
+The guide covers everything from generating the **JavaScript** function and assigning a unique event code, to adding the event to your website and testing it. Whether you are a developer or non-technical user, this guide will help you get started with creating custom events to better track user interactions on your website.
+
+## Add a new custom event
+
+- Create a new custom event for collecting any user metric.
+- Go to settings and click **Events.**
+
+![Add a new custom event](https://res.cloudinary.com/raufsamestone/image/upload/v1675871339/hardal/docs/create-custom-event/twry15fudmpn79mvmgue.png)
+
+Each custom event requires a unique code, which will be passed as a string argument to the `hardal.trackEvent()` function. For example, if your event code is **GROMT9EB2**, the function would be: `hardal.trackEvent('GROMT9EB2')`.
+
+To add the custom event to your website, you will need to insert the hardal.trackEvent() function in the relevant section of your website's code. This could be an onClick event on a button, or in response to some other user interaction.
+
+To using the custom events you will need to send a JavaScript function using the format:
+
+```JavaScript
+hardal.trackEvent("EVENT_CODE");
+```
+
+## Setup your new custom event
+
+- Name your new custom event.
+- Use the code below to run your custom event on your app.
+
+- Upon completing all necessary fields, click the **Save** button to create your website. Your newly created custom event will appear in your dashboard, ready for use.
+
+![managing custom event](https://res.cloudinary.com/raufsamestone/image/upload/v1675871391/hardal/docs/create-custom-event/tnd2keucumajl6wdfttu.png)
+
+## Manage your events
+
+- You can view, edit, or delete your custom events in **Event Management** section
+
+![managing custom event](https://res.cloudinary.com/raufsamestone/image/upload/v1675871623/hardal/docs/create-custom-event/osb82pzzz0tanteifsqk.png)
+
+## Testing your events
+
+Once the `hardal.trackEvent()` function has been added to your website, test it to ensure it is working as expected. You can view your event data in the hardal dashboard.
+
+- Go to **Event** tab, and choose your custom event from dropdown. You should see you event which you have send from your website or dApp.
+
+![testing custom event](https://res.cloudinary.com/raufsamestone/image/upload/v1675871811/hardal/docs/create-custom-event/mj42j6w70yyo7ichcnce.png)
