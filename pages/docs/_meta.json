@@ -9,7 +9,7 @@
   },
   "metrics": "UX Metrics",
   "web-vitals": "Web Vitals",
-  "web3-marketing-metrics": "Web3 Marketing Metrics",
+  "web3-metrics": "Web3 Metrics",
   "user-bheavior": "   User Behavior",
   "-- Analysis and Visualization --": {
     "type": "separator",
@@ -22,9 +22,7 @@
     "type": "separator",
     "title": "Integration and API"
   },
-  "ingtegrating-with-other-tools": "  Integrating with Other Tools",
-  "using-the-api": "  Using the API",
-
+  "api": "API",
   "other-metrics": "Metrics",
   "-- Other --": {
     "type": "separator",
