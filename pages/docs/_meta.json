@@ -2,7 +2,7 @@
   "index": "Introduction",
   "quick-start": "Quick Start",
   "getting-started": "Getting Started",
-  "data-collection": "Data Collection",
+  "data-retention": "Data Retention",
   "-- Data Collection --": {
     "type": "separator",
     "title": "Data Collection"
