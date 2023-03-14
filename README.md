@@ -10,9 +10,24 @@ First, run `pnpm i` to install the dependencies.
 
 Then, run `pnpm dev` to start the development server and visit localhost:3000.
 
-## Using
+## Examples
 
-This project is using [Nextra](https://github.com/shuding/nextra).
+```
+//_meta.json
+
+   "demo": {
+     "type": "page",
+     "title": "Demo",
+     "theme": {
+       "typesetting": "article",
+       "layout": "full"
+     }
+   }
+```
+
+## Project
+
+This project using [https://nextra.site](https://nextra.site).
 
 ## License
 
