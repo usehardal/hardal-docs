@@ -1,14 +1,12 @@
 {
   "index": "Introduction",
-  "quick-start": "Quick Start",
   "getting-started": "Getting Started",
-  "data-retention": "Data Retention",
   "-- Data Collection --": {
     "type": "separator",
     "title": "Data Collection"
   },
+  "data-retention": "Data Retention",
   "metrics": "UX Metrics",
-  "web-vitals": "Web Vitals",
   "web3-metrics": "Web3 Metrics",
   "user-bheavior": "   User Behavior",
   "-- Analysis and Visualization --": {
