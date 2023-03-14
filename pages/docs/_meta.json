@@ -1,14 +1,13 @@
 {
   "index": "Introduction",
   "getting-started": "Getting Started",
+  "data-privacy": "Data Privacy",
   "-- Data Collection --": {
     "type": "separator",
     "title": "Data Collection"
   },
-  "data-retention": "Data Retention",
   "metrics": "UX Metrics",
   "web3-metrics": "Web3 Metrics",
-  "user-bheavior": "   User Behavior",
   "-- Analysis and Visualization --": {
     "type": "separator",
     "title": "Analysis and Visualization"
@@ -21,7 +20,6 @@
     "title": "Integration and API"
   },
   "api": "API",
-  "other-metrics": "Metrics",
   "-- Other --": {
     "type": "separator",
     "title": "Other"
